@@ -19,6 +19,17 @@ class IssueListViewController: UIViewController {
 	@IBOutlet weak var searchbar: UISearchBar!
 	@IBOutlet weak var tableView: UITableView!
 	
+	// MARK: iVars
+	let disposeBag = DisposeBag()
+	var provider: RxMoyaProvider<Github>!
+	
+	var latestRepositoryName: Observable<String> {
+		return searchbar.rx.text
+			.filterNil()
+			.debounce(0.5, scheduler: MainScheduler.instance)
+			.distinctUntilChanged()
+	}
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		setupRx()
@@ -26,15 +37,19 @@ class IssueListViewController: UIViewController {
 
 	func setupRx() {
 		
+		provider = RxMoyaProvider<Github>()
+		
+		tableView
+			.rx.itemSelected
+			.subscribe { indexPath in
+				if self.searchbar.isFirstResponder == true {
+					self.view.endEditing(true)
+				}
+		}
+		.addDisposableTo(disposeBag)
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	func url(_ route: TargetType) -> String {
+		return route.baseURL.appendingPathComponent(route.path).absoluteString
+	}
 } // end of class
