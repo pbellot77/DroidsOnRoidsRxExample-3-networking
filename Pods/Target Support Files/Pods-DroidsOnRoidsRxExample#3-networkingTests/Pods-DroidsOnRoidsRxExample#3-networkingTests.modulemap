@@ -1,0 +1,6 @@
+framework module Pods_DroidsOnRoidsRxExample_3_networkingTests {
+  umbrella header "Pods-DroidsOnRoidsRxExample#3-networkingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

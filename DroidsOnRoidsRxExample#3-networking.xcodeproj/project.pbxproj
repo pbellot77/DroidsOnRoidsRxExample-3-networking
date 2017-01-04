@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CD5D991F4E57A85BDD1EC96 /* Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6F8C1CB6ED45638FF3F5C2 /* Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework */; };
+		85962A0D3F1BC5F5D6750CCC /* Pods_DroidsOnRoidsRxExample_3_networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30E1AD6250EE8DE67768B1F /* Pods_DroidsOnRoidsRxExample_3_networking.framework */; };
 		BA984CA21E1D6B6100D5A796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */; };
-		BA984CA41E1D6B6100D5A796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CA31E1D6B6100D5A796 /* ViewController.swift */; };
 		BA984CA71E1D6B6100D5A796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CA51E1D6B6100D5A796 /* Main.storyboard */; };
 		BA984CA91E1D6B6100D5A796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA984CA81E1D6B6100D5A796 /* Assets.xcassets */; };
 		BA984CAC1E1D6B6100D5A796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CAA1E1D6B6100D5A796 /* LaunchScreen.storyboard */; };
 		BA984CB71E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CB61E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift */; };
 		BA984CC21E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CC11E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift */; };
+		BA984CD01E1D6CE900D5A796 /* IssueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CCF1E1D6CE900D5A796 /* IssueListViewController.swift */; };
+		F3BF8C24631D86787305E171 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0C18BB84573C076C8C0463 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		224DE9C64BAB7FA5095B102F /* Pods-DroidsOnRoidsRxExample#3-networkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#3-networkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingUITests/Pods-DroidsOnRoidsRxExample#3-networkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FAB294DFBBC31BD93BC9128 /* Pods-DroidsOnRoidsRxExample#3-networkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#3-networkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingTests/Pods-DroidsOnRoidsRxExample#3-networkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5085131FB437D1DFFDA92BCA /* Pods-DroidsOnRoidsRxExample#3-networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#3-networking.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networking/Pods-DroidsOnRoidsRxExample#3-networking.release.xcconfig"; sourceTree = "<group>"; };
+		8439076FEBA96C3A374E8443 /* Pods-DroidsOnRoidsRxExample#3-networkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#3-networkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingUITests/Pods-DroidsOnRoidsRxExample#3-networkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		855B98C49FAC8E0C1825A3A5 /* Pods-DroidsOnRoidsRxExample#3-networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#3-networking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networking/Pods-DroidsOnRoidsRxExample#3-networking.debug.xcconfig"; sourceTree = "<group>"; };
+		9A0C18BB84573C076C8C0463 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_3_networkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DA83BA3246B2F7B7512249 /* Pods-DroidsOnRoidsRxExample#3-networkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#3-networkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingTests/Pods-DroidsOnRoidsRxExample#3-networkingTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA984C9E1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DroidsOnRoidsRxExample#3-networking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA984CA31E1D6B6100D5A796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA984CA61E1D6B6100D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA984CA81E1D6B6100D5A796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA984CAB1E1D6B6100D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		BA984CBD1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsRxExample#3-networkingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984CC11E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsRxExample_3_networkingUITests.swift; sourceTree = "<group>"; };
 		BA984CC31E1D6B6100D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984CCF1E1D6CE900D5A796 /* IssueListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueListViewController.swift; sourceTree = "<group>"; };
+		D30E1AD6250EE8DE67768B1F /* Pods_DroidsOnRoidsRxExample_3_networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_3_networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6F8C1CB6ED45638FF3F5C2 /* Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85962A0D3F1BC5F5D6750CCC /* Pods_DroidsOnRoidsRxExample_3_networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BF8C24631D86787305E171 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD5D991F4E57A85BDD1EC96 /* Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21539935CC4CC508C381AF9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30E1AD6250EE8DE67768B1F /* Pods_DroidsOnRoidsRxExample_3_networking.framework */,
+				9A0C18BB84573C076C8C0463 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework */,
+				DE6F8C1CB6ED45638FF3F5C2 /* Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA984C951E1D6B6100D5A796 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +106,13 @@
 				BA984CB51E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests */,
 				BA984CC01E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests */,
 				BA984C9F1E1D6B6100D5A796 /* Products */,
+				DA81C65B4224406C045D4433 /* Pods */,
+				21539935CC4CC508C381AF9D /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		BA984C9F1E1D6B6100D5A796 /* Products */ = {
 			isa = PBXGroup;
@@ -98,8 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */,
-				BA984CA31E1D6B6100D5A796 /* ViewController.swift */,
 				BA984CA51E1D6B6100D5A796 /* Main.storyboard */,
+				BA984CCF1E1D6CE900D5A796 /* IssueListViewController.swift */,
 				BA984CA81E1D6B6100D5A796 /* Assets.xcassets */,
 				BA984CAA1E1D6B6100D5A796 /* LaunchScreen.storyboard */,
 				BA984CAD1E1D6B6100D5A796 /* Info.plist */,
@@ -125,6 +155,19 @@
 			path = "DroidsOnRoidsRxExample#3-networkingUITests";
 			sourceTree = "<group>";
 		};
+		DA81C65B4224406C045D4433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				855B98C49FAC8E0C1825A3A5 /* Pods-DroidsOnRoidsRxExample#3-networking.debug.xcconfig */,
+				5085131FB437D1DFFDA92BCA /* Pods-DroidsOnRoidsRxExample#3-networking.release.xcconfig */,
+				4FAB294DFBBC31BD93BC9128 /* Pods-DroidsOnRoidsRxExample#3-networkingTests.debug.xcconfig */,
+				A5DA83BA3246B2F7B7512249 /* Pods-DroidsOnRoidsRxExample#3-networkingTests.release.xcconfig */,
+				8439076FEBA96C3A374E8443 /* Pods-DroidsOnRoidsRxExample#3-networkingUITests.debug.xcconfig */,
+				224DE9C64BAB7FA5095B102F /* Pods-DroidsOnRoidsRxExample#3-networkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984CC61E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networking" */;
 			buildPhases = (
+				230F48A81B258C0E5244A9CF /* [CP] Check Pods Manifest.lock */,
 				BA984C9A1E1D6B6100D5A796 /* Sources */,
 				BA984C9B1E1D6B6100D5A796 /* Frameworks */,
 				BA984C9C1E1D6B6100D5A796 /* Resources */,
+				0BD038FBF6A2D44321C4FB21 /* [CP] Embed Pods Frameworks */,
+				44AC0D0662FAE374CF733445 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984CC91E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingTests" */;
 			buildPhases = (
+				4D002E53FC02C6942244E983 /* [CP] Check Pods Manifest.lock */,
 				BA984CAE1E1D6B6100D5A796 /* Sources */,
 				BA984CAF1E1D6B6100D5A796 /* Frameworks */,
 				BA984CB01E1D6B6100D5A796 /* Resources */,
+				5918F99EB9856B4766EED17E /* [CP] Embed Pods Frameworks */,
+				C7083FD61E7E1EEACC34AC71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984CCC1E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingUITests" */;
 			buildPhases = (
+				FEB61462356B02E3C7F11FDC /* [CP] Check Pods Manifest.lock */,
 				BA984CB91E1D6B6100D5A796 /* Sources */,
 				BA984CBA1E1D6B6100D5A796 /* Frameworks */,
 				BA984CBB1E1D6B6100D5A796 /* Resources */,
+				C2D49E8D5D34B57F8D975FBC /* [CP] Embed Pods Frameworks */,
+				81A6564A3E60FDA6748CC852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +309,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BD038FBF6A2D44321C4FB21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networking/Pods-DroidsOnRoidsRxExample#3-networking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		230F48A81B258C0E5244A9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44AC0D0662FAE374CF733445 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networking/Pods-DroidsOnRoidsRxExample#3-networking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D002E53FC02C6942244E983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5918F99EB9856B4766EED17E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingTests/Pods-DroidsOnRoidsRxExample#3-networkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A6564A3E60FDA6748CC852 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingUITests/Pods-DroidsOnRoidsRxExample#3-networkingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D49E8D5D34B57F8D975FBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingUITests/Pods-DroidsOnRoidsRxExample#3-networkingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7083FD61E7E1EEACC34AC71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#3-networkingTests/Pods-DroidsOnRoidsRxExample#3-networkingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB61462356B02E3C7F11FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA984C9A1E1D6B6100D5A796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA984CA41E1D6B6100D5A796 /* ViewController.swift in Sources */,
+				BA984CD01E1D6CE900D5A796 /* IssueListViewController.swift in Sources */,
 				BA984CA21E1D6B6100D5A796 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +601,7 @@
 		};
 		BA984CC71E1D6B6100D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855B98C49FAC8E0C1825A3A5 /* Pods-DroidsOnRoidsRxExample#3-networking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -424,6 +615,7 @@
 		};
 		BA984CC81E1D6B6100D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5085131FB437D1DFFDA92BCA /* Pods-DroidsOnRoidsRxExample#3-networking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -437,6 +629,7 @@
 		};
 		BA984CCA1E1D6B6100D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FAB294DFBBC31BD93BC9128 /* Pods-DroidsOnRoidsRxExample#3-networkingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +645,7 @@
 		};
 		BA984CCB1E1D6B6100D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DA83BA3246B2F7B7512249 /* Pods-DroidsOnRoidsRxExample#3-networkingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +661,7 @@
 		};
 		BA984CCD1E1D6B6100D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8439076FEBA96C3A374E8443 /* Pods-DroidsOnRoidsRxExample#3-networkingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -481,6 +676,7 @@
 		};
 		BA984CCE1E1D6B6100D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224DE9C64BAB7FA5095B102F /* Pods-DroidsOnRoidsRxExample#3-networkingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -512,6 +708,7 @@
 				BA984CC81E1D6B6100D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA984CC91E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +717,7 @@
 				BA984CCB1E1D6B6100D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA984CCC1E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +726,7 @@
 				BA984CCE1E1D6B6100D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
