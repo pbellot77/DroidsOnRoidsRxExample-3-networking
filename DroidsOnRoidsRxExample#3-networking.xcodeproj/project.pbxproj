@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA984CA21E1D6B6100D5A796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */; };
+		BA984CA41E1D6B6100D5A796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CA31E1D6B6100D5A796 /* ViewController.swift */; };
+		BA984CA71E1D6B6100D5A796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CA51E1D6B6100D5A796 /* Main.storyboard */; };
+		BA984CA91E1D6B6100D5A796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA984CA81E1D6B6100D5A796 /* Assets.xcassets */; };
+		BA984CAC1E1D6B6100D5A796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CAA1E1D6B6100D5A796 /* LaunchScreen.storyboard */; };
+		BA984CB71E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CB61E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift */; };
+		BA984CC21E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CC11E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA984CB31E1D6B6100D5A796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA984C961E1D6B6100D5A796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA984C9D1E1D6B6100D5A796;
+			remoteInfo = "DroidsOnRoidsRxExample#3-networking";
+		};
+		BA984CBE1E1D6B6100D5A796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA984C961E1D6B6100D5A796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA984C9D1E1D6B6100D5A796;
+			remoteInfo = "DroidsOnRoidsRxExample#3-networking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA984C9E1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DroidsOnRoidsRxExample#3-networking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA984CA31E1D6B6100D5A796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA984CA61E1D6B6100D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA984CA81E1D6B6100D5A796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA984CAB1E1D6B6100D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA984CAD1E1D6B6100D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984CB21E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsRxExample#3-networkingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA984CB61E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsRxExample_3_networkingTests.swift; sourceTree = "<group>"; };
+		BA984CB81E1D6B6100D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984CBD1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsRxExample#3-networkingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA984CC11E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsRxExample_3_networkingUITests.swift; sourceTree = "<group>"; };
+		BA984CC31E1D6B6100D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA984C9B1E1D6B6100D5A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CAF1E1D6B6100D5A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CBA1E1D6B6100D5A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA984C951E1D6B6100D5A796 = {
+			isa = PBXGroup;
+			children = (
+				BA984CA01E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking */,
+				BA984CB51E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests */,
+				BA984CC01E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests */,
+				BA984C9F1E1D6B6100D5A796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA984C9F1E1D6B6100D5A796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA984C9E1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking.app */,
+				BA984CB21E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests.xctest */,
+				BA984CBD1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA984CA01E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking */ = {
+			isa = PBXGroup;
+			children = (
+				BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */,
+				BA984CA31E1D6B6100D5A796 /* ViewController.swift */,
+				BA984CA51E1D6B6100D5A796 /* Main.storyboard */,
+				BA984CA81E1D6B6100D5A796 /* Assets.xcassets */,
+				BA984CAA1E1D6B6100D5A796 /* LaunchScreen.storyboard */,
+				BA984CAD1E1D6B6100D5A796 /* Info.plist */,
+			);
+			path = "DroidsOnRoidsRxExample#3-networking";
+			sourceTree = "<group>";
+		};
+		BA984CB51E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA984CB61E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift */,
+				BA984CB81E1D6B6100D5A796 /* Info.plist */,
+			);
+			path = "DroidsOnRoidsRxExample#3-networkingTests";
+			sourceTree = "<group>";
+		};
+		BA984CC01E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA984CC11E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift */,
+				BA984CC31E1D6B6100D5A796 /* Info.plist */,
+			);
+			path = "DroidsOnRoidsRxExample#3-networkingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA984C9D1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA984CC61E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networking" */;
+			buildPhases = (
+				BA984C9A1E1D6B6100D5A796 /* Sources */,
+				BA984C9B1E1D6B6100D5A796 /* Frameworks */,
+				BA984C9C1E1D6B6100D5A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DroidsOnRoidsRxExample#3-networking";
+			productName = "DroidsOnRoidsRxExample#3-networking";
+			productReference = BA984C9E1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA984CB11E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA984CC91E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingTests" */;
+			buildPhases = (
+				BA984CAE1E1D6B6100D5A796 /* Sources */,
+				BA984CAF1E1D6B6100D5A796 /* Frameworks */,
+				BA984CB01E1D6B6100D5A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA984CB41E1D6B6100D5A796 /* PBXTargetDependency */,
+			);
+			name = "DroidsOnRoidsRxExample#3-networkingTests";
+			productName = "DroidsOnRoidsRxExample#3-networkingTests";
+			productReference = BA984CB21E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA984CBC1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA984CCC1E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingUITests" */;
+			buildPhases = (
+				BA984CB91E1D6B6100D5A796 /* Sources */,
+				BA984CBA1E1D6B6100D5A796 /* Frameworks */,
+				BA984CBB1E1D6B6100D5A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA984CBF1E1D6B6100D5A796 /* PBXTargetDependency */,
+			);
+			name = "DroidsOnRoidsRxExample#3-networkingUITests";
+			productName = "DroidsOnRoidsRxExample#3-networkingUITests";
+			productReference = BA984CBD1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA984C961E1D6B6100D5A796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bell OS, LLC";
+				TargetAttributes = {
+					BA984C9D1E1D6B6100D5A796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+					};
+					BA984CB11E1D6B6100D5A796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA984C9D1E1D6B6100D5A796;
+					};
+					BA984CBC1E1D6B6100D5A796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA984C9D1E1D6B6100D5A796;
+					};
+				};
+			};
+			buildConfigurationList = BA984C991E1D6B6100D5A796 /* Build configuration list for PBXProject "DroidsOnRoidsRxExample#3-networking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA984C951E1D6B6100D5A796;
+			productRefGroup = BA984C9F1E1D6B6100D5A796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA984C9D1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking */,
+				BA984CB11E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingTests */,
+				BA984CBC1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA984C9C1E1D6B6100D5A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CAC1E1D6B6100D5A796 /* LaunchScreen.storyboard in Resources */,
+				BA984CA91E1D6B6100D5A796 /* Assets.xcassets in Resources */,
+				BA984CA71E1D6B6100D5A796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CB01E1D6B6100D5A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CBB1E1D6B6100D5A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA984C9A1E1D6B6100D5A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CA41E1D6B6100D5A796 /* ViewController.swift in Sources */,
+				BA984CA21E1D6B6100D5A796 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CAE1E1D6B6100D5A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CB71E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CB91E1D6B6100D5A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CC21E1D6B6100D5A796 /* DroidsOnRoidsRxExample_3_networkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA984CB41E1D6B6100D5A796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA984C9D1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking */;
+			targetProxy = BA984CB31E1D6B6100D5A796 /* PBXContainerItemProxy */;
+		};
+		BA984CBF1E1D6B6100D5A796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA984C9D1E1D6B6100D5A796 /* DroidsOnRoidsRxExample#3-networking */;
+			targetProxy = BA984CBE1E1D6B6100D5A796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA984CA51E1D6B6100D5A796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA984CA61E1D6B6100D5A796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA984CAA1E1D6B6100D5A796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA984CAB1E1D6B6100D5A796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA984CC41E1D6B6100D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA984CC51E1D6B6100D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA984CC71E1D6B6100D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsRxExample#3-networking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsRxExample-3-networking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA984CC81E1D6B6100D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsRxExample#3-networking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsRxExample-3-networking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA984CCA1E1D6B6100D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsRxExample#3-networkingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsRxExample-3-networkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidsOnRoidsRxExample#3-networking.app/DroidsOnRoidsRxExample#3-networking";
+			};
+			name = Debug;
+		};
+		BA984CCB1E1D6B6100D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsRxExample#3-networkingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsRxExample-3-networkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidsOnRoidsRxExample#3-networking.app/DroidsOnRoidsRxExample#3-networking";
+			};
+			name = Release;
+		};
+		BA984CCD1E1D6B6100D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsRxExample#3-networkingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsRxExample-3-networkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DroidsOnRoidsRxExample#3-networking";
+			};
+			name = Debug;
+		};
+		BA984CCE1E1D6B6100D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsRxExample#3-networkingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsRxExample-3-networkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DroidsOnRoidsRxExample#3-networking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA984C991E1D6B6100D5A796 /* Build configuration list for PBXProject "DroidsOnRoidsRxExample#3-networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984CC41E1D6B6100D5A796 /* Debug */,
+				BA984CC51E1D6B6100D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA984CC61E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984CC71E1D6B6100D5A796 /* Debug */,
+				BA984CC81E1D6B6100D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA984CC91E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984CCA1E1D6B6100D5A796 /* Debug */,
+				BA984CCB1E1D6B6100D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA984CCC1E1D6B6100D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#3-networkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984CCD1E1D6B6100D5A796 /* Debug */,
+				BA984CCE1E1D6B6100D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA984C961E1D6B6100D5A796 /* Project object */;
+}
