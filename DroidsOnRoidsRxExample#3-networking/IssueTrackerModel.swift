@@ -24,12 +24,12 @@ struct IssueTrackerModel {
 			.flatMapLatest { name -> Observable<Repository?> in
 				print("Name: \(name)")
 				return self
-					.findRepository(name)
+					.findRepository(name: name)
 			}
-			.flatmapLatest { repository -> Observable<[Issue]?> in
+			.flatMapLatest { repository -> Observable<[Issue]?> in
 				guard let repository = repository else { return Observable.just(nil) }
 				print("Repository: \(repository.fullName)")
-				return self.findIssues(repository)
+				return self.findIssues(repository: repository)
 			}
 			.replaceNilWith([])
 	}
