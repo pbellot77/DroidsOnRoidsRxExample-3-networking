@@ -22,6 +22,7 @@ class IssueListViewController: UIViewController {
 	// MARK: iVars
 	let disposeBag = DisposeBag()
 	var provider: RxMoyaProvider<Github>!
+	var issueTrackerModel: IssueTrackerModel!
 	
 	var latestRepositoryName: Observable<String> {
 		return searchbar.rx.text
@@ -38,6 +39,18 @@ class IssueListViewController: UIViewController {
 	func setupRx() {
 		
 		provider = RxMoyaProvider<Github>()
+		
+		issueTrackerModel = IssueTrackerModel(provider: provider, repositoryName: latestRepositoryName)
+		
+		issueTrackerModel
+			.trackIssues()
+			.bindTo(tableView.rx.items) { (tableView, row, item) in
+				let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: IndexPath(row: row, section: 0))
+				cell.textLabel?.text = item.title
+				
+				return cell
+		}
+		.addDisposableTo(disposeBag)
 		
 		tableView
 			.rx.itemSelected

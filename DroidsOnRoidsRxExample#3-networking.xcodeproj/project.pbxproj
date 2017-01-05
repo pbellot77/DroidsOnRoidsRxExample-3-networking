@@ -19,6 +19,7 @@
 		BA984CD21E1DA5B700D5A796 /* GithubEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CD11E1DA5B700D5A796 /* GithubEndPoint.swift */; };
 		BA984CD41E1DAD5300D5A796 /* IssueEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CD31E1DAD5300D5A796 /* IssueEntity.swift */; };
 		BA984CD61E1DAE4500D5A796 /* RepositoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CD51E1DAE4500D5A796 /* RepositoryEntity.swift */; };
+		BA984CD81E1EFB3500D5A796 /* IssueTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CD71E1EFB3500D5A796 /* IssueTrackerModel.swift */; };
 		F3BF8C24631D86787305E171 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0C18BB84573C076C8C0463 /* Pods_DroidsOnRoidsRxExample_3_networkingTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		BA984CD11E1DA5B700D5A796 /* GithubEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubEndPoint.swift; sourceTree = "<group>"; };
 		BA984CD31E1DAD5300D5A796 /* IssueEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueEntity.swift; sourceTree = "<group>"; };
 		BA984CD51E1DAE4500D5A796 /* RepositoryEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryEntity.swift; sourceTree = "<group>"; };
+		BA984CD71E1EFB3500D5A796 /* IssueTrackerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTrackerModel.swift; sourceTree = "<group>"; };
 		D30E1AD6250EE8DE67768B1F /* Pods_DroidsOnRoidsRxExample_3_networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_3_networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6F8C1CB6ED45638FF3F5C2 /* Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_3_networkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 				BA984CA11E1D6B6100D5A796 /* AppDelegate.swift */,
 				BA984CA51E1D6B6100D5A796 /* Main.storyboard */,
 				BA984CCF1E1D6CE900D5A796 /* IssueListViewController.swift */,
+				BA984CD71E1EFB3500D5A796 /* IssueTrackerModel.swift */,
 				BA984CD31E1DAD5300D5A796 /* IssueEntity.swift */,
 				BA984CD51E1DAE4500D5A796 /* RepositoryEntity.swift */,
 				BA984CD11E1DA5B700D5A796 /* GithubEndPoint.swift */,
@@ -465,6 +468,7 @@
 				BA984CD61E1DAE4500D5A796 /* RepositoryEntity.swift in Sources */,
 				BA984CA21E1D6B6100D5A796 /* AppDelegate.swift in Sources */,
 				BA984CD41E1DAD5300D5A796 /* IssueEntity.swift in Sources */,
+				BA984CD81E1EFB3500D5A796 /* IssueTrackerModel.swift in Sources */,
 				BA984CD21E1DA5B700D5A796 /* GithubEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
